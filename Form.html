@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <link rel="stylesheet" type="text/css" href="formStyle.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="all">
+            <div class="theOne">
+                <h1>Formulário Básico do Programador</h1>
+            </div>
+            
+            <br>
+            
+            <form class="txts" action="/dados-coletados-do-forms" 
+                method="post">
+                
+                <div class="theTwo">
+                    <p class="txts">
+                        Este é um formulário sobre conhecimentos em Computação.<br>Responda-o de acordo
+                        com os conhecimentos que possuir e/ou área de atuação.<br>Sendo assim:
+                    </p>
+                </div>
+                <br><br>
+    
+                <!-- Linguagem de Programação -->
+    
+                <div class="theTwo">
+                    <p><b>Linguagem de Programação:</b><br></p>
+                    <input type="checkbox" id="pl1">
+                    <label for="pl1">Python</label><br>
+                    <input type="checkbox" id="pl2">
+                    <label for="pl2">C#</label><br>
+                    <input type="checkbox" id="pl3">
+                    <label for="pl3">JavaScript</label><br>
+                    <input type="checkbox" id="pl4">
+                    <label for="pl4">SQL</label><br>
+                    <input type="checkbox" id="pl5">
+                    <label for="pl5">Outra(s)</label>
+                    <input type="text">
+                </div>
+                <br><br>
+    
+                <!-- Área de Atuação -->
+    
+                <div class="theTwo">
+                    <p><b>Área de Atuação:</b></p>
+                    <input type="checkbox" id="at1">
+                    <label for="at1">Front-end</label><br>
+                    <input type="checkbox" id="at2">
+                    <label for="at2">Back-end</label><br>
+                    <input type="checkbox" id="at3">
+                    <label for="at3">Full Stack</label><br>
+                    <input type="checkbox" id="at4">
+                    <label for="at4">Infraestrutura</label><br>
+                    <input type="checkbox" id="at5">
+                    <label for="at5">Outra(s):</label>
+                    <input type="text">
+                </div>
+                <br><br>
+                
+                <!-- Tempo de Experiência -->
+    
+                <div class="theTwo">
+                    <p><b>Tempo de Experiência:</b></p>
+                    <input type="checkbox" id="te1">
+                    <label for="te1">< 1 ano</label><br>
+                    <input type="checkbox" id="te1">
+                    <label for="te1">1 ~ 5 anos</label><br>
+                    <input type="checkbox" id="te1">
+                    <label for="te1">5 ~ 10 anos</label><br>
+                    <input type="checkbox" id="te1">
+                    <label for="te1">10 ~ 20 anos</label><br>
+                    <input type="checkbox" id="te1">
+                    <label for="te1">Outro:</label>
+                    <input type="text">
+                </div>
+                <br><br>
+                <button type="submit" class="bt"><b>Enviar</b></button>
+    
+            </form>
+        </div>
+
+        <footer>
+            <p class="ft">
+                Autor: João Pedro Olimpio  |  Email: olimpiojp@hotmail.com
+            </p>
+        </footer>
+    </body>
+</html>
